@@ -1,0 +1,91 @@
+body{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    background-color: #1e202b;
+}
+
+/* ٍStart Header */
+.nav-link{
+    color: #fff ;
+    padding: 5px 30px;
+    margin-left: 10px;
+    border:2px solid transparent;
+}
+li a.active{
+    border:2px solid #009ad8 ;
+}
+.nav-link:hover {
+    border-color: #009ad8 ;
+    color: #009ad8;
+}
+.logo-desc h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo-desc p{
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #fff;
+}
+/* End Header */
+
+/* Start Section */
+.banner{
+    background-image: url("../images/banner.png");
+    min-height: 350px;
+}
+.search{
+    width: 95%;
+}
+@media screen and (min-width:992px) {
+    .search{
+        width: 63%;
+    }
+}
+.search input{
+    background: #1e202b;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding-left: 24px;
+}
+.wetherColomns{
+    margin-top: -170px;
+}
+.day-info{
+    background-color: #262936;
+    color: #f1f1f1;
+    box-shadow: 1px 1px 2px 2px rgb(82, 82, 84);
+}
+.sunny{
+    font-size: 18px;
+    color: #64B5F6;
+}
+.currentTemp{
+    font-size: 81px;
+}
+/* End Section */
+
+/* Start Footer */
+footer{
+    background-color: #262936
+}
+.socialIcons ul{
+    list-style-type: none;
+}
+.socialIcons ul li{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e202b;
+    color: #009ad8;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.socialIcons ul li:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
